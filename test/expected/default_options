@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 
-#: test/fixtures/okfile.js:13 test/fixtures/oktpl.hbs:3
+#: test/fixtures/okfile.js:13
 msgid "%d greeting"
 msgid_plural "%d greetings"
 msgstr[0] ""
