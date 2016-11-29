@@ -1,46 +1,47 @@
 {
-  "name": "grunt-jspot",
-  "description": "Grunt task for the jspot library",
-  "version": "0.1.0",
-  "homepage": "https://github.com/JSteunou/grunt-jspot",
-  "author": {
-    "name": "Jérôme Steunou",
-    "url": "http://jeromesteunou.net"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/JSteunou/grunt-jspot.git"
-  },
-  "bugs": {
-    "url": "https://github.com/JSteunou/grunt-jspot/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/JSteunou/grunt-jspot/blob/master/LICENSE-MIT"
+    "name": "grunt-jspot",
+    "description": "Grunt task for the jspot library",
+    "version": "0.1.0",
+    "homepage": "https://github.com/JSteunou/grunt-jspot",
+    "author": {
+        "name": "Jérôme Steunou",
+        "url": "http://jeromesteunou.net"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/JSteunou/grunt-jspot.git"
+    },
+    "bugs": {
+        "url": "https://github.com/JSteunou/grunt-jspot/issues"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/JSteunou/grunt-jspot/blob/master/LICENSE-MIT"
+    }],
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "devDependencies": {
+        "grunt": "*",
+        "grunt-contrib-clean": "*",
+        "grunt-contrib-jshint": "*",
+        "grunt-contrib-nodeunit": "*",
+        "grunt-mkdir": "*"
+    },
+    "keywords": [
+        "gruntplugin",
+        "jspot",
+        "gettext",
+        "pomo",
+        "i18n"
+    ],
+    "peerDependencies": {
+        "grunt": ">=0.4.5"
+    },
+    "dependencies": {
+        "jspot": "*"
     }
-  ],
-  "engines": {
-    "node": ">= 0.8.0"
-  },
-  "scripts": {
-    "test": "grunt test"
-  },
-  "devDependencies": {
-    "grunt": "*",
-    "grunt-contrib-clean": "*",
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-nodeunit": "*",
-    "grunt-mkdir": "*"
-  },
-  "keywords": [
-    "gruntplugin",
-    "jspot",
-    "gettext",
-    "pomo",
-    "i18n"
-  ],
-  "dependencies": {
-    "jspot": "*"
-  }
 }
